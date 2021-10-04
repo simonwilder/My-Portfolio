@@ -79,25 +79,33 @@ img {
     height: 400px;
 }
 
-.welcome h2 {
-    font-size: 15px;
-}
-
-.welcome h2, .welcome p {
-    color: darkgrey;
+.welcome h1, .welcome p {
+    color: white;
     margin-bottom: 5px;
 }
 
 .bio {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0px;
-    justify-content: space-between;
 }
 
 .tldr {
-    padding-right: 5rem;
-    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.tldr h2 {
+    text-align: center;
+    color: black;
+    font-style: bold italic;
 }
 
 .tldr p {
@@ -128,12 +136,13 @@ img {
     max-height: 450px;
     justify-content: space-around;
     border: 1x solid black;
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 .url a {
-    font-size: 15px;
+    font-size: 20px;
     color: black;
+    font-style: bold;
 }
 
 .project-img1 {
@@ -147,6 +156,44 @@ img {
 .project-img3 {
     margin-bottom: 20px;
 }
+
+.contact-info {
+    display: grid;
+    text-align: center;
+    height: 100px;
+    padding: 20px 0;
+    font-size: 18px;
+    background-color: lightblue;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.email-linkedin {
+    margin: 0 50px;
+}
+
+.email-linkedin div {
+    display: inline-block;
+}
+
+/* End of CSS styling */
+
+
+
+
 
 
 
